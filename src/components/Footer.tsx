@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { communityLinks, platformLinks, resourcesLinks } from '../constants'
 
 export const Footer = () => {
@@ -27,7 +27,7 @@ export const Footer = () => {
                 {/* community */}
                 <div>
                     <h3 className='text-md font-semibold mb-4'>Community</h3>
-                    <ul>{platformLinks.map((link, index) => (
+                    <ul>{communityLinks.map((link, index) => (
                         <li key={index}>
                             <a href={link.href} className='text-neutral-300 hover:text-white'>{link.text}</a>
                         </li>

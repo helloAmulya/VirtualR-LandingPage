@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { testimonials } from '../constants'
 
 export const Testimonials = () => {
