@@ -9,7 +9,7 @@ export const Testimonials = () => {
             </h2>
             <div className='flex flex-wrap items-center'>
 
-                {testimonials.map((rev, index) => (
+                {testimonials.map((rev) => (
                     <div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2">
                         <div className="bg-neutral-800 rounded-md p-6 text-md border border-neutral-800 font-thin">
                             <p>{rev.text}</p>
